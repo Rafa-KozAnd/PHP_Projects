@@ -1,0 +1,14 @@
+{
+    "name": "celke/aula",
+    "description": "Celke",
+    "authors": [
+        {
+            "name": "Cesar",
+            "email": "cesar@celke.com.br"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "chillerlan/php-qrcode": "dev-master"
+    }
+}
