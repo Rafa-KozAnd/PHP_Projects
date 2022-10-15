@@ -4,10 +4,10 @@
 - Status: Under Development;
 - Languages: PHP;
 - Softwares/Work Tools: 'V.S. Code';
-- Resume: (About_the_Repository);
-- Obs: Example;
+- Resume: ;
+- Obs: ;
 - Version: v.1.0.0
 
-- Last Update Date: ??/??/20??.
+- Last Update Date: 15/10/2022.
 
 ##
