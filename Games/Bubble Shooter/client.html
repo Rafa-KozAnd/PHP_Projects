@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Bubble Shooter em PHP</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        #game-board {
+            width: 400px;
+            height: 400px;
+            border: 2px solid black;
+            margin: 20px auto;
+            position: relative;
+        }
+        .bubble {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            position: absolute;
+            cursor: pointer;
+        }
+        #shooter {
+            width: 40px;
+            height: 40px;
+            background-color: gray;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .shoot-button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bubble Shooter em PHP</h1>
+    <div id="game-board">
+        <!-- Este espaço será preenchido dinamicamente com bolhas -->
+    </div>
+    <div id="shooter"></div>
+    <button class="shoot-button" onclick="shootBubble()">Atirar Bolha</button>
+
+    <script>
+        let shooterPosition = { x: 0, y: 0 }; // Posição inicial do atirador
+        let bubbleSize = 40; // Tamanho das bolhas
+        let boardWidth = 400; // Largura do tabuleiro
+        let boardHeight = 400; // Altura do tabuleiro
+
+        // Função para atirar uma nova bolha
+        function shootBubble() {
+            // Implementar lógica para atirar a bolha
+            // Enviar a posição da bolha atirada para o servidor PHP via AJAX
+        }
+    </script>
+</body>
+</html>
